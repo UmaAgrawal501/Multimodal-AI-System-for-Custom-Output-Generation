@@ -1,1 +1,48 @@
-# Multimodal-AI-System-for-Custom-Output-Generation
+# Multimodal AI System for Custom Output Generation
+
+# Overview
+
+This project integrates Vision AI (YOLOv8) and Language Models (LLMs) to create a seamless multimodal AI application. The system analyzes uploaded images, extracts relevant details using YOLOv8, and dynamically generates user-defined outputs through an LLM. Outputs can range from concise summaries to creative descriptions or detailed analytical reports, customized to the user's needs.
+
+# Features
+
+Image Analysis: Detect objects and extract meaningful information from images using YOLOv8.
+
+Dynamic Prompting: Automatically generate contextual prompts for the LLM based on extracted image details.
+
+Custom Output Generation: Create user-specific outputs such as:
+
+  Concise summaries
+
+  Creative descriptions
+
+  Detailed analytical reports
+
+Region-Specific Analysis: Allow users to specify regions of interest within the image for targeted analysis.
+
+Multilingual Support: Generate outputs in multiple languages to cater to diverse audiences.
+
+
+# Architecture
+
+Image Upload & Preprocessing:
+
+   Users upload an image for analysis.
+
+   The system preprocesses the image for object detection.
+
+Vision AI Analysis:
+
+   YOLOv8 detects objects and extracts descriptive details (e.g., labels, bounding boxes).
+
+Dynamic Prompt Creation:
+
+   Extracted details are converted into prompts tailored to the user's desired output type.
+
+LLM Integration:
+
+   The LLM generates user-specific outputs based on the dynamically created prompts.
+
+Output Customization:
+
+   Users can define the format, tone, and language of the output.
