@@ -6,21 +6,17 @@ This project integrates Vision AI (YOLOv8) and Language Models (LLMs) to create 
 
 # Features
 
-1. Image Analysis: Detect objects and extract meaningful information from images using YOLOv8.
+✅ AI-Powered Image Analysis → Uses YOLOv8 to detect objects in images
 
-2. Dynamic Prompting: Automatically generate contextual prompts for the LLM based on extracted image details.
+✅ Dynamic Prompt Generation → Generates smart prompts for LLM based on detected objects
 
-3. Custom Output Generation: Create user-specific outputs such as:
+✅ Custom Output Modes → Choose between a concise summary, creative description, or detailed report
 
-  Concise summaries
+✅ Region-Specific Naming → Adjusts object names based on user location (e.g., “Truck” → “Lorry” in UK)
 
-  Creative descriptions
+✅ Multilingual Support → Translates generated text into any selected language
 
-  Detailed analytical reports
-
-4. Region-Specific Analysis: Allow users to specify regions of interest within the image for targeted analysis.
-
-5. Multilingual Support: Generate outputs in multiple languages to cater to diverse audiences.
+✅ Easy API Integration → Works with OpenAI's GPT-4 or GPT-3.5
 
 
 # Architecture
